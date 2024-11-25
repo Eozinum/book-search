@@ -27,5 +27,16 @@ code block
 
 ## TODO:
 
-- [ ] Add tanstack query and manage all requests through it
-- [ ]
+- [x] Add tanstack query and manage all requests through it
+- [ ] Create detailed page for the book
+- [ ] Add search history
+- [ ] Add saving books to preffered list
+- [ ] Add ability add a review for the book
+- [ ] Add authors search (will have a card with name, top work and works count)
+- [ ] Add author detailed page (will have more detailed info with list of works)
+- [ ] Add ability to save authors to preffered list
+
+#### Later:
+
+- [ ] Add animations
+- [ ] Add icons to tabs and the app icons. and Splash screen
