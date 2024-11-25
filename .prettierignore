@@ -1,0 +1,8 @@
+.cache
+.env
+.output
+
+dist
+temp
+node_modules
+*.d.ts
