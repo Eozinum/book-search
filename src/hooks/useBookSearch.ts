@@ -9,6 +9,7 @@ export type Book = {
   cover_edition_key: string
   first_publish_year: number
   language?: string[]
+  key: string
 }
 
 type Response = {

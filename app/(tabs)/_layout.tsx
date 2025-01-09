@@ -3,8 +3,8 @@ import { Tabs } from 'expo-router'
 export default function Layout() {
   return (
     <Tabs screenOptions={{ headerShown: true }}>
-      <Tabs.Screen name="index/index" options={{ title: 'Books' }} />
-      <Tabs.Screen name="authors/index" options={{ title: 'Authors' }} />
+      <Tabs.Screen name="books" options={{ title: 'Books', headerShown: false }} />
+      <Tabs.Screen name="authors" options={{ title: 'Authors', headerShown: false }} />
     </Tabs>
   )
 }
