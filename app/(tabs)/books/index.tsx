@@ -47,7 +47,7 @@ export default function Books() {
         options={{
           headerShown: true,
           header: () => (
-            <View className="flex-row items-center justify-between px-2 pt-16">
+            <View className="flex-row items-center justify-between px-2 pt-16 ">
               <TextInput
                 ref={inputRef}
                 value={search}
@@ -60,7 +60,7 @@ export default function Books() {
                 autoFocus
                 selectTextOnFocus
                 selectionColor="#9ca3af"
-                className="h-10 bg-gray-100 px-2 border border-gray-200 rounded-md flex-1 drop-shadow-xl"
+                className="h-10 bg-gray-100 px-2 border border-gray-200 rounded-md flex-1 drop-shadow-xl mt-2"
               />
             </View>
           ),
